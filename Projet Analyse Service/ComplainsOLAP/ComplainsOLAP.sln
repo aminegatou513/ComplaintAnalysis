@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ComplainsOLAP", "ComplainsOLAP.dwproj", "{AFD9344D-12D5-4970-9E5A-542CBAF9BF6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFD9344D-12D5-4970-9E5A-542CBAF9BF6A}.Development|Default.ActiveCfg = Development
+		{AFD9344D-12D5-4970-9E5A-542CBAF9BF6A}.Development|Default.Build.0 = Development
+		{AFD9344D-12D5-4970-9E5A-542CBAF9BF6A}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54878DC1-7DCF-4A34-92EF-BD5855A9104E}
+	EndGlobalSection
+EndGlobal

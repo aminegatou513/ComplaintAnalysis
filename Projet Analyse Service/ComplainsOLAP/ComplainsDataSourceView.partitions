@@ -1,0 +1,85 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1911b7f5-916f-4074-87d2-e2ee60585b02" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>ComplainsDataSourceView</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact Complains Data</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="11ab1ca6-f9fd-4bb2-bd53-1d29d27dc3fc">
+          <ID>Fact Complains Data</ID>
+          <Name>Fact Complains Data</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="662d972e-e1aa-43ea-841d-dd781a8a453d">
+            <DataSourceViewID>ComplainsDataSourceView</DataSourceViewID>
+            <TableID>dbo_Fact_x0020_Complains_x0020_Data</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Complains Data 1</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="789e745c-ba0b-4b73-8fcc-3d5419742353">
+          <ID>Fact Complains Data</ID>
+          <Name>Fact Complains Data</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="927a50cc-6afd-4140-bba9-18b656038238">
+            <DataSourceViewID>ComplainsDataSourceView</DataSourceViewID>
+            <TableID>dbo_Fact_x0020_Complains_x0020_Data</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Complains Data 2</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="3547b0fc-64ff-4c57-bc64-3708719deaaf">
+          <ID>Fact Complains Data</ID>
+          <Name>Fact Complains Data</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="74ccbfe0-f86e-4e57-a255-dca2e48c13e7">
+            <DataSourceViewID>ComplainsDataSourceView</DataSourceViewID>
+            <TableID>dbo_Fact_x0020_Complains_x0020_Data</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Complains Data 3</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="dcc90061-e178-435f-918c-0fa769e4beb7">
+          <ID>Fact Complains Data</ID>
+          <Name>Fact Complains Data</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="2656e571-418a-4798-b162-f5c8bd9ce5b3">
+            <DataSourceViewID>ComplainsDataSourceView</DataSourceViewID>
+            <TableID>dbo_Fact_x0020_Complains_x0020_Data</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

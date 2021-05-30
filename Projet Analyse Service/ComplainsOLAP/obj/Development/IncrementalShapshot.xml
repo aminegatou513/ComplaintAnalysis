@@ -1,0 +1,131 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ComplainsOLAP</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>Pcjc/51XhLU2yE7BwZtoMHjwEIo=26-May-21 19:31:5626-May-21 19:31:56</TimeStamp>
+        <ID>
+          <String>ComplainsDataSource</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Y4+Xee5RX7kVau9ExMs8BZcTUtc=29-May-21 01:12:2026-May-21 19:32:17</TimeStamp>
+        <ID>
+          <String>ComplainsDataSourceView</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>39MA5tArbwx8h7KYK0/FnUevNY0=27-May-21 20:09:0626-May-21 19:33:10</TimeStamp>
+        <ID>
+          <String>Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OLrztr/0rga4V2HatyOmL5dJZD8=26-May-21 19:52:1826-May-21 19:33:10</TimeStamp>
+        <ID>
+          <String>Sources</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Db08OzjDE5OuhbKb+R1DYRq9Hfo=26-May-21 19:52:1826-May-21 19:33:10</TimeStamp>
+        <ID>
+          <String>Broker</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SphEd1+n/oEZ9b4GaG+4bjRdtgg=26-May-21 19:52:1826-May-21 19:33:10</TimeStamp>
+        <ID>
+          <String>Regions</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hWbReUKWJ7KhkM7S5O4YqkOfqtI=28-May-21 00:18:1226-May-21 19:33:10</TimeStamp>
+        <ID>
+          <String>Dim Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>EWK81a7ho/JUv0iVeLPG5u+CckQ=26-May-21 19:52:1826-May-21 19:33:10</TimeStamp>
+        <ID>
+          <String>Types</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>gvxmsELJ7IDZarYtDuFlzLwDJN8=26-May-21 19:52:1826-May-21 19:33:10</TimeStamp>
+        <ID>
+          <String>Statuses</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4oO8ub8jpndY/zfXiWOP+z3yQQM=26-May-21 19:52:1826-May-21 19:33:10</TimeStamp>
+        <ID>
+          <String>Priorities</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LfktDjzsqUdIe3nVjuF0S0xuoII=27-May-21 19:44:5626-May-21 19:33:10</TimeStamp>
+        <ID>
+          <String>Staging Source Data</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>bqZxAnNGspHvP5FhaWyY6UGqTc0=26-May-21 19:52:1826-May-21 19:33:10</TimeStamp>
+        <ID>
+          <String>Products</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2PN6pd1RQwOe2F3mQScJyuRoMCI=27-May-21 20:18:5326-May-21 19:33:10</TimeStamp>
+        <ID>
+          <String>Categories</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Grl1asIzoFuIpqjl46bdRowllTg=29-May-21 01:18:5526-May-21 19:33:103QZHsa9RMqP+k78CXM6AltrgGfc=29-May-21 01:18:5526-May-21 19:33:10</TimeStamp>
+        <ID>
+          <String>ComplainsDataSourceView</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>rNw0xZAuxtO/2tokEDuWCE3QON8=26-May-21 19:31:2026-May-21 19:31:20</TimeStamp>
+      <ID>
+        <String>ComplainsOLAP</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2021-05-29T00:19:03.566667Z</LastDeployed>
+</DeploymentSnapshot>

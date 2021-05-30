@@ -1,0 +1,243 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dd1a4b86-7f20-4bd1-8b6b-663a367d501e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Staging Source Data</ID>
+  <Name>Staging Source Data</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1647" scrolltop="-6840" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10372" y="18124" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Staging_SourceData" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="6588" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000bc1900009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Staging_SourceData" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1647</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6840</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="944a24d1-9b5b-4536-b14e-9528788ee44f">
+    <DataSourceViewID>ComplainsDataSourceView</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="d9b87690-1a5c-4e77-a670-380568009bbb">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="098f848b-ff5e-423a-92ac-79d74081d607">
+      <ID>Details Data PK</ID>
+      <Name>DetailsDataID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e96c64d7-510d-4778-ba23-b44e5f17b7d8">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="18200df8-657a-4e16-b560-69a01bb2da20">
+            <TableID>dbo_Staging_SourceData</TableID>
+            <ColumnID>Details_DataPK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="83622ed0-eb1f-4eee-8d7c-927a9193348e">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="1e73f1d4-000f-45d4-a872-278576116db5">
+          <TableID>dbo_Staging_SourceData</TableID>
+          <ColumnID>Details_DataPK</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d7a39cb8-ad8b-46a0-ad70-22310faa5e2e">
+          <AttributeID>Complain Date</AttributeID>
+          <Name>Complain Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4b518b6b-7a75-4f44-a3f6-a68a2714a5b3">
+          <AttributeID>Completion Date</AttributeID>
+          <Name>Completion Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3046a4c8-7175-4e47-86db-a348ccca08ca">
+          <AttributeID>No Of Days From Complain To Completion Date</AttributeID>
+          <Name>No Of Days From Complain To Completion Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9e43e7bf-a5cd-4e48-8952-651b67ba9434">
+          <AttributeID>Has Completion Date</AttributeID>
+          <Name>Has Completion Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bc25ccc3-0d42-4d4d-bf60-bbb1e595bd78">
+          <AttributeID>Client Satisfaction</AttributeID>
+          <Name>Client Satisfaction</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a667fc85-c1e8-438f-86de-a5c1a20789fa">
+      <ID>Complain Date</ID>
+      <Name>Complain Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c2d9405b-47b8-4a33-8bad-4d16735b709d">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f8077b1a-b62d-4b8b-9158-5db1ca16ce71">
+            <TableID>dbo_Staging_SourceData</TableID>
+            <ColumnID>ComplainDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="c81177f0-6266-4fbd-ae9c-e48d25819fe2">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="4b7f3714-cc7a-48ee-ad97-7bb446ae4ea7">
+          <TableID>dbo_Staging_SourceData</TableID>
+          <ColumnID>ComplainDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ce14ca67-9087-47c5-920e-8460a53bf5b6">
+      <ID>Completion Date</ID>
+      <Name>Completion Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9728bdb8-3743-469f-8dd9-fed6db9013dc">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8c15f795-5f1f-4db7-b42b-70d90556197d">
+            <TableID>dbo_Staging_SourceData</TableID>
+            <ColumnID>CompletionDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="d6db88ef-b944-4901-abe9-760988edc4da">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="e763e434-7ab0-44d2-892f-9a13b1ecc77d">
+          <TableID>dbo_Staging_SourceData</TableID>
+          <ColumnID>CompletionDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d6d3fe89-fc94-40e1-a929-0fa05352a222">
+      <ID>No Of Days From Complain To Completion Date</ID>
+      <Name>No Of Days From Complain To Completion Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3343823c-7428-4ef0-9739-2919cfb6911f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="df66cb5f-c404-480d-9335-dc1a74cd8c2b">
+            <TableID>dbo_Staging_SourceData</TableID>
+            <ColumnID>NoOfDaysFromComplainToCompletionDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="bedb3a47-ea21-415f-bb1a-f41fa4172c26">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d50c726d-df53-4994-b769-79c5a7da9b1e">
+          <TableID>dbo_Staging_SourceData</TableID>
+          <ColumnID>NoOfDaysFromComplainToCompletionDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3066b80e-1764-49fc-bfb0-6582c873b3ea">
+      <ID>Has Completion Date</ID>
+      <Name>Has Completion Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ba46db65-7852-4655-b65a-ebcd55d34285">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a1d5610a-a4d1-492d-a135-038d5f034bc4">
+            <TableID>dbo_Staging_SourceData</TableID>
+            <ColumnID>HasCompletionDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="0835b25b-458b-4826-aea5-87b35514e3e8">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d56a6d72-b95f-4c40-a210-39dc4415b373">
+          <TableID>dbo_Staging_SourceData</TableID>
+          <ColumnID>HasCompletionDate</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d391d598-798a-4060-a231-36d728e4e456">
+      <ID>Client Satisfaction</ID>
+      <Name>Client Satisfaction</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9aede1a9-b7d5-4a39-b475-39c5726264ef">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e3466eaa-a9f6-49d4-8b95-32b255edb6e7">
+            <TableID>dbo_Staging_SourceData</TableID>
+            <ColumnID>ClientSatisfaction</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="d4830ceb-7f6e-488e-903d-f03f96c0aa23">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="c6c0bdc7-3e1b-484b-8f58-6cdf282f5df7">
+          <TableID>dbo_Staging_SourceData</TableID>
+          <ColumnID>ClientSatisfaction</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
