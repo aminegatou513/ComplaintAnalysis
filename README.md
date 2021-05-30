@@ -1,9 +1,14 @@
 
 Please note that the ipbix file is connected live to the analyse service database, unfortunately Microsoft PowerBI doesn't support the switch from live connection to Import mode so to view the file and open it yourself, follow these steps.
+
 1- Attach the database files provided in .rar files to your SSMS
+
 2- Open the solution file of Analyse service projet on Visual Studio ( You should have installed SQL Server Data Tools & Analyse Service Instance )
+
 3-Change the server name to localhost
+
 4-Deploy the cube 
+
 5- Open the PowerBi File !
 
 Best Regards! 
