@@ -5,7 +5,7 @@ Please note that the ipbix file is connected live to the analyse service databas
 
 2- Open the solution file of Analyse service projet on Visual Studio ( You should have installed SQL Server Data Tools & Analyse Service Extensions from the Visual Studio Market Place  )
 
-3-Change the server name to localhost
+3-Change the server name to localhost or to your database server.
 
 4-Deploy the cube 
 
